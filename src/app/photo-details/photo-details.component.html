@@ -1,9 +1,9 @@
 <app-header></app-header>
 @if (photo) {
-<div class="photo-details-container">
-    <div class="photo-details-card">
+<div class="flex justify-center items-center photo-details-container">
+    <div class="photo-details-card flex justify-center items-center flex-col text-center overflow-hidden rounded-xl w-full">
         <img [ngSrc]="photo?.imageId" alt="Photo" width="100" height="100" class="photo-details-image" priority placeholder/>
-        <div class="photo-details-info">
+        <div class="photo-details-info ">
             <h1>Photo Details</h1>
             <p><strong>ID:</strong> {{ photo?.id }}</p>
             <p><strong>Title:</strong> {{ photo?.title }}</p>
