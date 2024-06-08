@@ -1,7 +1,4 @@
 .photo-details-container {
-    display: flex;
-    justify-content: center;
-    align-items: start;
     padding: 20px;
     background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
     min-height: 90vh;
@@ -10,15 +7,8 @@
 
 .photo-details-card {
     background-color: #fff;
-    border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 500px;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     transition: transform 0.3s ease;
 }
 
